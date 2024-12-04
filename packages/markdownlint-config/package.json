@@ -1,0 +1,29 @@
+{
+  "name": "markdownlint-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "liuyj <1410505543@qq.com>",
+  "homepage": "https://github.com/liuyingjie1130/fe-spec#readme",
+  "license": "ISC",
+  "main": "index.json",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyingjie1130/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuyingjie1130/fe-spec/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  }
+}
