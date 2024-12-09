@@ -1,11 +1,11 @@
-name: Build and Deploy
-on:
+name: Build and Deploy # 工作流名称
+on: # 指定触发 workflow 的条件，通常是某些事件。（main分支push时触发）
     push:
         branches:
             - main
-jobs:
+jobs: # workflow 文件的主体是jobs字段，表示要执行的一项或多项任务。
     build-and-deploy:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-latest # 指定运行所需要的虚拟机环境，必填字段
         steps:
             - name: Checkout  ️
               uses: actions/checkout@v2.3.1
@@ -28,4 +28,4 @@ jobs:
               with:
                   BRANCH: gh-pages
                   FOLDER: docs/.vuepress/dist
-                  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+                  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} #生成及使用方法 自行百度
