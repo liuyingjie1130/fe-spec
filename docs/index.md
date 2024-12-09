@@ -1,6 +1,14 @@
+<!--
+ * @Author: liuyj12 liuyj12@yonyou.com
+ * @Date: 2024-12-04 10:41:37
+ * @LastEditors: liuyj12 liuyj12@yonyou.com
+ * @LastEditTime: 2024-12-09 14:55:58
+ * @FilePath: /工程化/fe-spec/docs/index.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 ---
 home: true
-heroText: 印客学院
+heroText: 大前端
 tagline: 前端编码规范工程化
 actionText: 立刻进入 →
 actionLink: /coding/html.md
